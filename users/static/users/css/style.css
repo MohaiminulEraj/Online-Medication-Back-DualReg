@@ -1,0 +1,55 @@
+#searchForm {
+  margin-left: 355px;
+  border: 2px solid black;
+}
+
+.input-group {
+  margin-top: 195px;
+}
+
+.input-group-text {
+  margin-right: 406px;
+  border: 2px solid;
+}
+
+@media (max-width: 1220px) {
+  .input-group-text {
+    margin-right: 254px;
+  }
+
+  #searchForm {
+    margin-left: 19%;
+  }
+}
+
+@media (max-width: 900px) {
+  .input-group-text {
+    margin-right: 81px;
+  }
+
+  #searchForm {
+    margin-left: 13%;
+  }
+}
+
+#doclogin {
+  transform: translate(0, 0);
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#patientlogin {
+  transform: translate(0, 0);
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#loginform {
+  margin-bottom: 7px;
+  margin-top: 6px;
+  border: 2px solid black;
+}
